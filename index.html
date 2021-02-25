@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon2_New.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <title>POMODORO</title>
+
+</head>
+
+    <body>
+         <header>
+                <h1 id="logo">Pomodoro</h1> <!-- Comentários -->
+         </header>
+
+         <main>
+             <section class="cronometro">
+                 <h2 id="counter">00:00:00</h2>
+                 <button  onclick="start();" class="iniciar">Iniciar</button>
+                 <button onclick="pause();" class="pausar">Pausar</button>
+                 <button onclick="stop();" class="parar">Parar</button>
+             </section>
+              <section id="center">
+                  <h2 id="text">Técnica Pomodoro</h2>
+                      <p>A técnica se baseia na ideia de que dividindo o nosso fluxo de trabalho
+                      em blocos de concentração intensa, conseguimos melhorar a agilidade do cérebro e estimular nosso foco.
+                     </p>
+                </section>
+         </main>
+
+        <footer>  </footer>
+
+    <script src="./script/cronometro.js"></script>
+</body>
+
+</html>

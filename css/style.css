@@ -1,0 +1,53 @@
+/*              Geral             */
+* {
+        padding: 0;
+        margin: 0;
+        box-sizing: 0;
+        font: 'Poppins', sans-serif;
+}
+
+body{
+        background: #f0f2f5;
+        font-family: 'Poppins', sans-serif;
+    }
+
+/*  Header  */
+
+header {
+        background-color:red;
+        padding: 2rem 0 10rem;
+        text-align: center;
+    }
+    
+    #logo {
+        color: #fff;
+        font-weight: 500;
+        padding-top: 50px;
+    }
+
+  #center{
+     padding-top: 10px;
+     text-align: center;
+ }
+
+ .cronometro
+ {
+     padding: 14px;
+     text-align: center;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 500;
+     font-size: 20px;
+ }
+
+ button{
+     padding: 10px;
+     border: 2px solid red;
+     border-radius: 25px;
+     font-family: 'Poppins';
+     font-size: 1.1em;
+     cursor: pointer;
+ }
+
+ button:hover {
+     background-color: gray;
+ }
